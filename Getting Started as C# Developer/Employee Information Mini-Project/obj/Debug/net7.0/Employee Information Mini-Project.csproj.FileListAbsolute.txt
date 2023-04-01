@@ -1,0 +1,15 @@
+/Users/oatsmacbook/Documents/Code Storage/Futureskill Course/Getting Started as C# Developer/Employee Information Mini-Project/bin/Debug/net7.0/Employee Information Mini-Project
+/Users/oatsmacbook/Documents/Code Storage/Futureskill Course/Getting Started as C# Developer/Employee Information Mini-Project/bin/Debug/net7.0/Employee Information Mini-Project.deps.json
+/Users/oatsmacbook/Documents/Code Storage/Futureskill Course/Getting Started as C# Developer/Employee Information Mini-Project/bin/Debug/net7.0/Employee Information Mini-Project.runtimeconfig.json
+/Users/oatsmacbook/Documents/Code Storage/Futureskill Course/Getting Started as C# Developer/Employee Information Mini-Project/bin/Debug/net7.0/Employee Information Mini-Project.dll
+/Users/oatsmacbook/Documents/Code Storage/Futureskill Course/Getting Started as C# Developer/Employee Information Mini-Project/bin/Debug/net7.0/Employee Information Mini-Project.pdb
+/Users/oatsmacbook/Documents/Code Storage/Futureskill Course/Getting Started as C# Developer/Employee Information Mini-Project/obj/Debug/net7.0/Employee Information Mini-Project.csproj.AssemblyReference.cache
+/Users/oatsmacbook/Documents/Code Storage/Futureskill Course/Getting Started as C# Developer/Employee Information Mini-Project/obj/Debug/net7.0/Employee Information Mini-Project.GeneratedMSBuildEditorConfig.editorconfig
+/Users/oatsmacbook/Documents/Code Storage/Futureskill Course/Getting Started as C# Developer/Employee Information Mini-Project/obj/Debug/net7.0/Employee Information Mini-Project.AssemblyInfoInputs.cache
+/Users/oatsmacbook/Documents/Code Storage/Futureskill Course/Getting Started as C# Developer/Employee Information Mini-Project/obj/Debug/net7.0/Employee Information Mini-Project.AssemblyInfo.cs
+/Users/oatsmacbook/Documents/Code Storage/Futureskill Course/Getting Started as C# Developer/Employee Information Mini-Project/obj/Debug/net7.0/Employee Information Mini-Project.csproj.CoreCompileInputs.cache
+/Users/oatsmacbook/Documents/Code Storage/Futureskill Course/Getting Started as C# Developer/Employee Information Mini-Project/obj/Debug/net7.0/Employee Information Mini-Project.dll
+/Users/oatsmacbook/Documents/Code Storage/Futureskill Course/Getting Started as C# Developer/Employee Information Mini-Project/obj/Debug/net7.0/refint/Employee Information Mini-Project.dll
+/Users/oatsmacbook/Documents/Code Storage/Futureskill Course/Getting Started as C# Developer/Employee Information Mini-Project/obj/Debug/net7.0/Employee Information Mini-Project.pdb
+/Users/oatsmacbook/Documents/Code Storage/Futureskill Course/Getting Started as C# Developer/Employee Information Mini-Project/obj/Debug/net7.0/Employee Information Mini-Project.genruntimeconfig.cache
+/Users/oatsmacbook/Documents/Code Storage/Futureskill Course/Getting Started as C# Developer/Employee Information Mini-Project/obj/Debug/net7.0/ref/Employee Information Mini-Project.dll
