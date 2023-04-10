@@ -1,7 +1,6 @@
 import React from "react";
 import "./App.css";
 import StudentItem from "./components/Studentitem"; //import component StudentItem
-import NewStudentItem from "./components/NewStudentItem";
 import StudentExample from "./components/StudentExample";
 
 function App() {
@@ -36,7 +35,8 @@ function App() {
         surname={studentList[3].surname}
         age={studentList[3].age}
       />
-      <StudentExample>Hello World</StudentExample> {/* เข้าถึง Hello World โดยใช้ props.children */}
+      <StudentExample>Hello World</StudentExample>{" "}
+      {/* เข้าถึง Hello World โดยใช้ props.children */}
       <button onClick={clickHandler}>Click me</button>
     </div>
     // เอา component StudentItem มาแสดง

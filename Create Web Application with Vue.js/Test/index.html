@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intro to Vue.js</title>
+    <style>
+      h1 {
+          color : blue;
+      }
+      #mytitle {
+          text-transform: uppercase;
+      }
+      .text-decoration {
+          text-decoration: underline;
+      }
+  </style>
+  </head>
+  <body>
+    <div id="app">
+      <my-cpn></my-cpn> <!-- เรียกใช้ component -->
+    </div>
+    <!--
+    <div id="app2"></div>
+    -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script>
+      var myVue = {
+        // เอาส่วนที่ต้องการ reuse มาสร้างเป็นตัวแปร
+        // ค่าใน template ต้องเป็น string เท่านั้น
+        template: `
+            <div>
+                <h1 id="mytitle" class="text-decoration">
+                    {{message}}
+                </h1>
+                <p class="text-decoration">
+                    {{myParagraph}}
+                </p>
+                <input v-blind:value="myvalue" v-on:keydown="counter"/>
+                <p>{{count}}</p>
+                <button v-on:click="counter">Count me</button>
+            </div>
+            `,
+        // ถ้าเป็น component data จะเป็น object ไม่ได้เพราะจะงงว่าของ component ไหน ต้องเปลี่ยน data เป็น function และให้ return object นั้น
+        data: function(){
+          return {
+          message: "Hello Vue!",
+          myParagraph: "this is my paragraph",
+          myValue: "this is my value",
+          count: 0,
+          };
+        },
+        method: {
+          counter: function () {
+            return this.count++;
+          },
+        },
+      };
+      Vue.component("my-cpn",myVue); // create component
+      var app = new Vue({
+        //สร้าง mddule
+        el: "#app",
+        //...myVue, // ใช้ spread operator
+      });
+      /*
+        var app2 = new Vue({
+        el: "#app2",
+        ...myVue,
+      });
+      */
+    </script>
+  </body>
+</html>
